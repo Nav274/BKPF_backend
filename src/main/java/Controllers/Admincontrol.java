@@ -15,6 +15,7 @@ import Repositories.FetchUsers;
 
 @RestController
 @RequestMapping("/api")
+@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
 public class Admincontrol {
 	
 	@Autowired
