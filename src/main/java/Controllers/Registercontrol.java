@@ -13,6 +13,7 @@ import Entities.Users;
 import Repositories.FetchUsers;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
 public class Registercontrol {
 	
 	@Autowired
